@@ -1,16 +1,32 @@
 # minha_loja_app
 
-A new Flutter project.
+Aplicativo de vendas para loja virtual de artigos de moda
 
-## Getting Started
+## Estrutura do projeto
 
-This project is a starting point for a Flutter application.
+### Main diretório
+    main.dart -> responsável por iniciar o app - runApp(App)
 
-A few resources to get you started if this is your first Flutter project:
+### app diretório
+    contém app.dart-> configurações do APP - utilização de MaterialApp - title/theme/home
+    contém as pastas: models/repositories//sub-pasta componentes/views//sub-pasta componentes
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Entidades - 
+    Diretório: 
+    models -> camada de modelagem das entidades
+  
+### Infra - 
+    Diretórios:
+      repositories-> camada na qual recebe os externos vindos da API. 
+        products_repository.dart
+      controllers-> intermediário entre as camada reposiories e a camada view. 
+        home_controller.dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Interface externa (UI)
+    Diretorio:
+      views-> camada de interface de usuário.
+      home.dart
+
+  #### sud-diretório de views:
+    componentes-> responsável pela componentização da tela home.dart
+
