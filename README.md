@@ -30,3 +30,11 @@ Aplicativo de vendas para loja virtual de artigos de moda
   #### sud-diretório de views:
     componentes-> responsável pela componentização da tela home.dart
 
+## Biblioteca
+     Dio
+
+## Dificuldades do desafio
+
+    Pouco tempo disponível, por realizações de trabalhos, para solucionar as dificuldades encontradas, como por exemplo a estrutura { "data": [{ ...}]} devolvida pela API na requisição. Com isso não pude dinamizar as telas e seus estados recpectivos. Porém desenvolvi o layout de tela até esbarrar com essa situação, mas deixei o layout com elementos estáticos onde seria a exibição do catálogo, porém com o scroll funcionando. O componente menu fixo na tela, com scroll horizontal e um draw menu.
+O que não faltou foi esforço para entregar o máximo possível dentro das condições.
+
